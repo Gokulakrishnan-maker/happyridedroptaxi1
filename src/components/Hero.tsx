@@ -195,9 +195,9 @@ const Hero = () => {
 
                 console.log('📧📱 Auto-sending enquiry notifications (Email + WhatsApp)...');
                 sendBookingEnquiryNotifications(enquiryData).then(() => {
-                  console.log('✅ Enquiry sent to 1waytaxi team via Email + WhatsApp + Telegram');
+                  console.log('✅ Enquiry sent to Happyridedroptaxi team via Email + WhatsApp + Telegram');
                   // Show user feedback
-                  alert('📧📱 Booking enquiry sent! 1waytaxi team has been notified via Email, WhatsApp & Telegram and will contact you shortly.');
+                  alert('📧📱 Booking enquiry sent! Happyridedroptaxi team has been notified via Email, WhatsApp & Telegram and will contact you shortly.');
                 }).catch(console.error);
                 
                 setShowEstimation(true);
@@ -267,7 +267,7 @@ const Hero = () => {
       // First send business WhatsApp (immediate)
       setTimeout(() => {
         const businessMessage = formatWhatsAppConfirmationMessage(bookingData);
-        const businessWhatsAppUrl = `https://wa.me/917418332789?text=${businessMessage}`;
+        const businessWhatsAppUrl = `https://wa.me/919087520500?text=${businessMessage}`;
         window.open(businessWhatsAppUrl, '_blank');
         console.log('✅ Business WhatsApp tab opened');
         
@@ -275,7 +275,7 @@ const Hero = () => {
         setTimeout(() => {
           const customerMessage = formatCustomerWhatsAppConfirmationMessage(bookingData);
           const customerPhone = bookingData.customerPhone!.replace(/\D/g, '');
-          const businessWhatsAppUrl = `https://wa.me/917418332789?text=${businessMessage}`;
+          const businessWhatsAppUrl = `https://wa.me/919087520500?text=${businessMessage}`;
           const customerWhatsAppUrl = `https://wa.me/${formattedPhone}?text=${encodeURIComponent(customerMessage)}`;
 
           
@@ -312,7 +312,7 @@ const Hero = () => {
     console.log('📱 Manual WhatsApp booking triggered...');
     if (successBookingData) {
       const message = formatWhatsAppConfirmationMessage(successBookingData);
-      const whatsappUrl = `https://wa.me/917418332789?text=${message}`;
+      const whatsappUrl = `https://wa.me/919087520500?text=${message}`;
       window.open(whatsappUrl, '_blank');
       console.log('✅ WhatsApp tab opened manually');
     } else {
@@ -323,36 +323,36 @@ const Hero = () => {
   return (
     <>
       <Helmet>
-        <title>1waytaxi - Book Taxi Services in Tamil Nadu, Kerala & Karnataka | 24/7 Reliable Cab Service</title>
+        <title>Happyridedroptaxi - Book Taxi Services in Tamil Nadu, Kerala & Karnataka | 24/7 Reliable Cab Service</title>
         <meta name="description" content="Book 1waytaxi for safe, reliable taxi service across Tamil Nadu. 24/7 availability, transparent pricing, professional drivers. Call +91 7810095200 for local & outstation trips." />
         <meta name="keywords" content="1waytaxi, taxi booking Tamil Nadu, Coimbatore taxi, outstation taxi, local cab service, airport transfer, 24/7 taxi service, reliable taxi booking" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://1waytaxi.com/" />
+        <link rel="canonical" href="https://happyridedroptaxi.com/" />
         
         {/* Open Graph tags */}
-        <meta property="og:title" content="1waytaxi - Book Taxi Services in Tamil Nadu, Kerala & Karnataka" />
+        <meta property="og:title" content="Happyridedroptaxi - Book Taxi Services in Tamil Nadu, Kerala & Karnataka" />
         <meta property="og:description" content="Safe, reliable taxi service across Tamil Nadu. 24/7 availability, transparent pricing, professional drivers." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://1waytaxi.com/" />
-        <meta property="og:site_name" content="1waytaxi" />
-        <meta property="og:image" content="https://1waytaxi.com/image.png" />
+        <meta property="og:url" content="https://happyridedroptaxi.com/" />
+        <meta property="og:site_name" content="Happyridedroptaxi" />
+        <meta property="og:image" content="https://happyridedroptaxi.com/image.png" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="1waytaxi - Reliable Taxi Service Tamil Nadu" />
+        <meta name="twitter:title" content="Happyridedroptaxi - Reliable Taxi Service Tamil Nadu" />
         <meta name="twitter:description" content="Book safe, reliable taxi service across Tamil Nadu. 24/7 availability with transparent pricing." />
-        <meta name="twitter:image" content="https://1waytaxi.com/image.png" />
+        <meta name="twitter:image" content="https://happyridedroptaxi.com/image.png" />
         
         {/* Local Business Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
-            "name": "1waytaxi",
+            "name": "Happyridedroptaxi",
             "description": "Professional taxi service across Tamil Nadu with 24/7 availability, transparent pricing, and reliable drivers",
-            "url": "https://1waytaxi.com",
-            "telephone": "+91-7418332789",
-            "email": "1waytaxi.booking@gmail.com",
+            "url": "https://happyridedroptaxi.com",
+            "telephone": "+91-9087520500",
+            "email": "happyridedroptaxi@gmail.com",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Coimbatore",
@@ -431,15 +431,15 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-white">
             <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Book - 1waytaxi Services in 
+              Book - Happyridedroptaxi Services in 
               <span className="text-yellow-300 drop-shadow-lg">TamilNadu, Kerala & Karnataka </span>
             </h1>
            <div className="flex flex-col sm:flex-row gap-6">
-              <a href="https://wa.me/917418332789" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-4 rounded-xl text-lg font-bold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-2xl text-center backdrop-blur-sm">
+              <a href="https://wa.me/919087520500" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-4 rounded-xl text-lg font-bold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-2xl text-center backdrop-blur-sm">
                 WhatsApp Us
               </a>
-              <a href="tel:+917418332789" className="border-2 border-white text-white px-10 py-4 rounded-xl text-lg font-bold hover:bg-white hover:text-purple-600 transition-all text-center backdrop-blur-sm">
-                Call +91 7418332789
+              <a href="tel:+919087520500" className="border-2 border-white text-white px-10 py-4 rounded-xl text-lg font-bold hover:bg-white hover:text-purple-600 transition-all text-center backdrop-blur-sm">
+                Call +91 9087520500
               </a>
             </div>
           </div>
@@ -652,9 +652,9 @@ const Hero = () => {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold text-green-400 mb-2">Booking Confirmed!</h3>
-                <p className="text-gray-200 mb-4">Thanks for booking 1waytaxi! 🎉</p>
+                <p className="text-gray-200 mb-4">Thanks for booking Happyridedroptaxi! 🎉</p>
                 <p className="text-yellow-300 text-sm mb-4">
-                  📧📱 1waytaxi team has been notified via Email, WhatsApp & Telegram
+                  📧📱 Happyridedroptaxi team has been notified via Email, WhatsApp & Telegram
                 </p>
                 
                 <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 mb-4 text-left">
@@ -689,7 +689,7 @@ const Hero = () => {
                 
                 <div className="text-center text-xs text-gray-300 mt-4">
                   <p>Our team will contact you shortly at {successBookingData.customerPhone}</p>
-                  <p className="text-green-400 font-semibold mt-2">✅ 1waytaxi team has been notified!</p>
+                  <p className="text-green-400 font-semibold mt-2">✅ Happyridedroptaxi team has been notified!</p>
                   <p className="text-yellow-300 mt-1">📱 WhatsApp confirmation sent to you and our team</p>
                   <p className="text-blue-300 mt-1">💬 Check your WhatsApp for booking confirmation!</p>
                 </div>
