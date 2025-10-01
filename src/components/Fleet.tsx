@@ -5,7 +5,7 @@ const Fleet = () => {
   const vehicles = [
     {
       name: 'SEDAN',
-      image: 'https://images.pexels.com/photos/1592384/pexels-photo-1592384.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://happyridedroptaxi.com/assets/sedan.png',
       passengers: '1-4',
       luggage: '2 bags',
       features: ['Air Conditioning', 'GPS Tracking', 'Phone Charger'],
