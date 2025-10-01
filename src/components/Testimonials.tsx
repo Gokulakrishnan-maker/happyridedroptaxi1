@@ -4,23 +4,23 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-     name: 'Saraswathi',
+     name: 'Saranya',
      role: 'Business Executive',
      image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400', 
      rating: 5,
-     text: '1waytaxi has been my go-to taxi service for business trips. Always punctual, professional drivers, and clean vehicles. Highly recommended!'
+     text: 'Happyridedroptaxi has been my go-to taxi service for business trips. Always punctual, professional drivers, and clean vehicles. Highly recommended!'
    },
 
     {
-     name: 'Kumaravel',
+     name: 'Kumaravelu',
      role: 'Frequent Traveler',
      image: 'https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=400',
      rating: 5,
-     text: '1waytaxi provides excellent service! The drivers are courteous and knowledgeable about the city. The booking system is seamless and pricing is very fair.'
+     text: 'Happyridedroptaxi provides excellent service! The drivers are courteous and knowledgeable about the city. The booking system is seamless and pricing is very fair.'
     },
     
     {
-     name: 'Kavitha',
+     name: 'Kavya',
      role: 'Local Resident',
      image: 'https://images.pexels.com/photos/1704489/pexels-photo-1704489.jpeg?auto=compress&cs=tinysrgb&w=400',
      rating: 5,
@@ -34,7 +34,7 @@ const Testimonials = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">What Our Customers Say</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Don't just take our word for it. Here's what our satisfied customers have to say about their 1waytaxi experience.
+            Don't just take our word for it. Here's what our satisfied customers have to say about their Happyridedroptaxi experience.
           </p>
         </div>
 
