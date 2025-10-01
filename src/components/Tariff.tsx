@@ -23,6 +23,10 @@ const Tariff = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Tariff Details</h2>
+           <p className="text-gray-700 text-lg max-w-3xl mx-auto font-semibold">
+              Complete breakdown of our transparent pricing structure. No hidden charges, 
+              all costs clearly mentioned upfront for your convenience.
+            </p>
         </div>
 
         {/* Tab Navigation */}
