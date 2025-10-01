@@ -32,7 +32,7 @@ const Header = () => {
                 alt="HappyrideDropTaxi Logo"
                 className="h-20 w-auto"
               />
-              <span className="text-3xl font-bold text-gray-900"></span>
+              <span className="text-2xl font-bold text-gray-900"></span>
             </Link>
           </motion.div>
 
