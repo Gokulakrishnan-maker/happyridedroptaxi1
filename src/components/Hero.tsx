@@ -412,8 +412,8 @@ const Hero = () => {
      className="relative min-h-screen flex items-center overflow-hidden bg-cover bg-center"
      style={{
      backgroundImage: "url('/images/family-taxi-bg.jpg')", // <-- add your family background image here
-     }}
-    >
+     }}>
+    
       
       {/* Animated Shapes */}
       <div className="absolute inset-0 bg-black/40">
