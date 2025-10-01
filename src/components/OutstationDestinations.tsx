@@ -131,7 +131,7 @@ const OutstationDestinations = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Outstation Destinations</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Travel across South India with 1waytaxi. Professional drivers, comfortable vehicles, and transparent pricing for all your outstation needs.
+            Travel across South India with Happyridedroptaxi. Professional drivers, comfortable vehicles, and transparent pricing for all your outstation needs.
           </p>
         </div>
 
