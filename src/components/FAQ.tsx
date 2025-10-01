@@ -12,7 +12,7 @@ const FAQ = () => {
       questions: [
         {
           question: "How can I book a taxi with 1waytaxi?",
-          answer: "You can book through our website, call +91 74183 32789, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
+          answer: "You can book through our website, call +91 9087520500, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
         },
         {
           question: "How far in advance can I book a taxi?",
@@ -69,22 +69,22 @@ const FAQ = () => {
   return (
     <>
       <Helmet>
-        <title>FAQ - 1waytaxi | Frequently Asked Questions about Taxi Service</title>
+        <title>FAQ - Happyridedroptaxi | Frequently Asked Questions about Taxi Service</title>
         <meta name="description" content="1waytaxi FAQ - Get answers to common questions about taxi booking, pricing, service areas, cancellation policy, and outstation trips across Tamil Nadu." />
         <meta name="keywords" content="1waytaxi FAQ, taxi booking questions, Tamil Nadu taxi service, outstation taxi, local taxi, fare calculation, booking help" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://1waytaxi.com/faq" />
         
         {/* Open Graph tags */}
-        <meta property="og:title" content="FAQ - 1waytaxi | Taxi Service Questions & Answers" />
-        <meta property="og:description" content="Get answers to common questions about 1waytaxi booking, pricing, service areas, and policies across Tamil Nadu." />
+        <meta property="og:title" content="FAQ -  Happyridedroptaxi | Taxi Service Questions & Answers" />
+        <meta property="og:description" content="Get answers to common questions about  Happyridedroptaxi booking, pricing, service areas, and policies across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://1waytaxi.com/faq" />
+        <meta property="og:url" content="https:// Happyridedroptaxi.com/faq" />
         <meta property="og:site_name" content="1waytaxi" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="FAQ - 1waytaxi" />
+        <meta name="twitter:title" content="FAQ -  Happyridedroptaxi" />
         <meta name="twitter:description" content="Get answers to common questions about 1waytaxi booking and service." />
         
         {/* Structured Data for FAQ */}
@@ -92,16 +92,16 @@ const FAQ = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "FAQPage",
-            "name": "1waytaxi FAQ - Frequently Asked Questions",
+            "name": " Happyridedroptaxi FAQ - Frequently Asked Questions",
             "description": "Common questions and answers about 1waytaxi booking, pricing, and service",
-            "url": "https://1waytaxi.com/faq",
+            "url": "https:// Happyridedroptaxi.com/faq",
             "mainEntity": [
               {
                 "@type": "Question",
-                "name": "How can I book a taxi with 1waytaxi?",
+                "name": "How can I book a taxi with  Happyridedroptaxi?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "You can book through our website, call +91 74183 32789, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
+                  "text": "You can book through our website, call +91 90875 20500 , or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
                 }
               },
               {
@@ -123,9 +123,9 @@ const FAQ = () => {
             ],
             "about": {
               "@type": "Organization",
-              "name": "1waytaxi",
-              "telephone": "+91-7418332789",
-              "email": "1waytaxi.booking@gmail.com"
+              "name": " Happyridedroptaxi",
+              "telephone": "+91-9087520500",
+              "email": "happyridedroptaxi@gmail.com"
             }
           })}
         </script>
@@ -189,21 +189,21 @@ const FAQ = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a 
-              href="tel:+917418332789" 
+              href="tel:+919087520500" 
               className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               <Phone className="inline h-4 w-4 mr-2" />
-              Call +91 7418332789
+              Call +91 9087520500
             </a>
             <a 
-              href="https://wa.me/917418332789" 
+              href="https://wa.me/919087520500" 
               className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center space-x-2"
             >
               <MessageCircle className="h-4 w-4" />
               <span>WhatsApp</span>
             </a>
             <a 
-              href="mailto:1waytaxi.booking@gmail.com" 
+              href="mailto:happyridedroptaxi@gmail.com" 
               className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors flex items-center space-x-2"
             >
               <AtSign className="h-4 w-4" />
