@@ -6,7 +6,7 @@ const Tariff = () => {
 
   const oneWayTariff = [
     { vehicle: 'SEDAN', rate: '₹14/KM', driverBata: '₹400', additional: 'One way Toll' },
-    { vehicle: 'ETIOS', rate: '₹14/KM', driverBata: '₹400', additional: 'One way Toll' },
+    { vehicle: 'ETIOS', rate: '₹15/KM', driverBata: '₹400', additional: 'One way Toll' },
     { vehicle: 'SUV', rate: '₹19/KM', driverBata: '₹400', additional: 'One way Toll' },
     { vehicle: 'INNOVA', rate: '₹20/KM', driverBata: '₹400', additional: 'One way Toll' }
   ];
