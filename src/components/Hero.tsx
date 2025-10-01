@@ -407,16 +407,16 @@ const Hero = () => {
         </script>
       </Helmet>
       
-      <section
-     id="home"
-     className="relative min-h-screen flex items-center overflow-hidden bg-cover bg-center"
-     style={{
-     backgroundImage: "url('/images/family-taxi-bg.jpg')", // <-- add your family background image here
-     }}>
-    
-      
-      {/* Animated Shapes */}
-      <div className="absolute inset-0 bg-black/40"></div>
+      <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Background Image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: 'url("https://images.pexels.com/photos/1128318/pexels-photo-1128318.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop")',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-yellow-900/60"></div>
+      </div>
         
       
      
