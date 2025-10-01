@@ -6,43 +6,43 @@ const TermsOfService = () => {
   return (
     <>
       <Helmet>
-        <title>Terms of Service - 1waytaxi | Taxi Booking Terms & Conditions</title>
-        <meta name="description" content="1waytaxi Terms of Service - Booking terms, cancellation policy, payment terms, and service agreement for taxi booking across Tamil Nadu. Licensed taxi service." />
-        <meta name="keywords" content="1waytaxi terms of service, taxi booking terms, cancellation policy, payment terms, Tamil Nadu taxi service, licensed taxi operator" />
+        <title>Terms of Service - Happyridedroptaxi | Taxi Booking Terms & Conditions</title>
+        <meta name="description" content="Happyridedroptaxi Terms of Service - Booking terms, cancellation policy, payment terms, and service agreement for taxi booking across Tamil Nadu. Licensed taxi service." />
+        <meta name="keywords" content="Happyridedroptaxi terms of service, taxi booking terms, cancellation policy, payment terms, Tamil Nadu taxi service, licensed taxi operator" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://1waytaxi.com/terms-of-service" />
+        <link rel="canonical" href="https://happyridedroptaxi.com/terms-of-service" />
         
         {/* Open Graph tags */}
-        <meta property="og:title" content="Terms of Service - 1waytaxi | Taxi Service Terms" />
-        <meta property="og:description" content="1waytaxi Terms of Service - Booking terms, cancellation policy, and service agreement for taxi booking across Tamil Nadu." />
+        <meta property="og:title" content="Terms of Service - Happyridedroptaxi | Taxi Service Terms" />
+        <meta property="og:description" content="Happyridedroptaxi Terms of Service - Booking terms, cancellation policy, and service agreement for taxi booking across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://1waytaxi.com/terms-of-service" />
-        <meta property="og:site_name" content="1waytaxi" />
+        <meta property="og:url" content="https://happyridedroptaxi.com/terms-of-service" />
+        <meta property="og:site_name" content="Happyridedroptaxi" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Terms of Service - 1waytaxi" />
-        <meta name="twitter:description" content="1waytaxi Terms of Service - Booking terms and service agreement for taxi booking." />
+        <meta name="twitter:title" content="Terms of Service - Happyridedroptaxi" />
+        <meta name="twitter:description" content="Happyridedroptaxi Terms of Service - Booking terms and service agreement for taxi booking." />
         
         {/* Structured Data for Google */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebPage",
-            "name": "Terms of Service - 1waytaxi",
-            "description": "1waytaxi Terms of Service - Booking terms, cancellation policy, and service agreement for taxi booking across Tamil Nadu",
-            "url": "https://1waytaxi.com/terms-of-service",
+            "name": "Terms of Service - Happyridedroptaxi",
+            "description": "Happyridedroptaxi Terms of Service - Booking terms, cancellation policy, and service agreement for taxi booking across Tamil Nadu",
+            "url": "https://happyridedroptaxi.com/terms-of-service",
             "isPartOf": {
               "@type": "WebSite",
-              "name": "1waytaxi",
-              "url": "https://1waytaxi.com"
+              "name": "Happyridedroptaxi",
+              "url": "https://happyridedroptaxi.com"
             },
             "about": {
               "@type": "Organization",
-              "name": "1waytaxi",
+              "name": "Happyridedroptaxi",
               "description": "Licensed taxi service across Tamil Nadu with transparent pricing",
-              "telephone": "+91-7418332789",
-              "email": "1waytaxi.booking@gmail.com",
+              "telephone": "+91-9087520500",
+              "email": "happyridedroptaxi@gmail.com",
               "areaServed": "Tamil Nadu, India"
             }
           })}
@@ -66,11 +66,11 @@ const TermsOfService = () => {
               </h2>
               <div className="bg-blue-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-4">
-                  By using 1waytaxi services, you agree to these terms and conditions. 
+                  By using Happyridedroptaxi services, you agree to these terms and conditions. 
                   Our taxi service operates under Tamil Nadu Transport Department regulations.
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
-                  <li>Service available 24/7 across Coimbatore and Tamil Nadu</li>
+                  <li>Service available 24/7 across Tiruchirappali and Tamil Nadu</li>
                   <li>Licensed drivers with valid permits and insurance</li>
                   <li>Vehicles regularly inspected and maintained</li>
                   <li>Compliance with local transportation laws</li>
@@ -171,9 +171,9 @@ const TermsOfService = () => {
                   For any legal questions or concerns regarding these terms:
                 </p>
                 <div className="space-y-2 text-gray-700">
-                  <p><strong>Phone:</strong> +91 7418332789</p>
-                  <p><strong>Email:</strong> 1waytaxi.booking@gmail.com</p>
-                  <p><strong>Address:</strong> Coimbatore, Tamil Nadu, India</p>
+                  <p><strong>Phone:</strong> +91 9087520500</p>
+                  <p><strong>Email:</strong> happyridedroptaxi@gmail.com</p>
+                  <p><strong>Address:</strong> Tiruchirappali, Tamil Nadu, India</p>
                 </div>
               </div>
             </section>
