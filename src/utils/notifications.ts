@@ -2,9 +2,8 @@
 
 // Telegram Bot Configuration
 const TELEGRAM_BOTS = [
-  { token: '8460050395:AAHQY-ulYMTbXBi1aksIGjoJvAJC8mirDHk', chatId: '8397058035' }, // Bot 1
-  { token: '7979449753:AAFtibFHdcDmfbJNEDByWcEP9CB331UU4qE', chatId: '8417599824' } // Bot 2
-];
+  { token: '8275666233:AAGEPTLZUWgzQt6-LUyQidHV-QOG4Q5dMM0', chatId: '8486626603' },
+  ];
 
 // API base URL for backend
 const API_BASE_URL = import.meta.env.DEV ? 'http://localhost:3001/api' : '/api';
@@ -119,7 +118,7 @@ export const sendBookingEnquiryEmail = async (booking: BookingEnquiry): Promise<
     
     if (result.success) {
       console.log('✅ Booking enquiry email sent successfully via backend');
-      console.log('📧 Email sent to: 1waytaxi.booking@gmail.com');
+      console.log('📧 Email sent to: happyridedroptaxi@gmail.com');
       console.log('📧 Message ID:', result.messageId);
       return true;
     } else {
@@ -174,7 +173,7 @@ export const sendBookingConfirmationEmail = async (booking: BookingEnquiry): Pro
     
     if (result.success) {
       console.log('✅ Booking confirmation email sent successfully via backend');
-      console.log('📧 Email sent to: 1waytaxi.booking@gmail.com');
+      console.log('📧 Email sent to: happyridedroptaxi@gmail.com');
       console.log('📧 Message ID:', result.messageId);
       return true;
     } else {
@@ -225,7 +224,7 @@ export const sendContactEmail = async (contactData: {
 
 // Format booking enquiry for WhatsApp message
 export const formatWhatsAppEnquiryMessage = (booking: BookingEnquiry): string => {
-  const message = `🚖 *BOOKING ENQUIRY - 1waytaxi*
+  const message = `🚖 *BOOKING ENQUIRY - Happyridedroptaxi*
  
   📋 *Trip Details:*
 • Booking ID: ${booking.bookingId}
@@ -246,8 +245,8 @@ export const formatWhatsAppEnquiryMessage = (booking: BookingEnquiry): string =>
 
 ⏰ *Enquiry Time:* ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
 
-📞 *Contact Support:* +91 7418332789
- 🌐 *Website:* www.1waytaxi.com
+📞 *Contact Support:* +91 9087520500
+ 🌐 *Website:* www.happyridedroptaxi.com
 `;
 
   return encodeURIComponent(message);
@@ -257,7 +256,7 @@ export const formatWhatsAppEnquiryMessage = (booking: BookingEnquiry): string =>
 
 // Format customer enquiry WhatsApp message
 export const formatCustomerWhatsAppEnquiryMessage = (booking: BookingEnquiry): string => {
-  const message = `🚖 *Thank you for your enquiry - 1waytaxi*
+  const message = `🚖 *Thank you for your enquiry - Happyridedroptaxi*
 
 Dear ${booking.customerName}, 
 
@@ -282,11 +281,11 @@ We have received your booking enquiry! 📋
 Our team will contact you shortly to confirm your booking and provide driver details.
 
 📞 *Contact Us:*
-• Phone: +91 7418332789
-• Email: 1waytaxi.booking@gmail.com
-• Website: www.1waytaxi.com
+• Phone: +91 9087520500
+• Email: happyridedroptaxi@gmail.com
+• Website: www.happyridedroptaxi.com
 
-Thank you for choosing 1waytaxi! 🙏
+Thank you for choosing Happyridedroptaxi! 🙏
 
 ⏰ *Enquiry Time:* ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`;
 
@@ -295,7 +294,7 @@ Thank you for choosing 1waytaxi! 🙏
 
 // Format customer confirmation WhatsApp message
 export const formatCustomerWhatsAppConfirmationMessage = (booking: BookingEnquiry): string => {
-  const message = `🚖 *BOOKING CONFIRMED - 1waytaxi*
+  const message = `🚖 *BOOKING CONFIRMED - Happyridedroptaxi*
 
 Dear ${booking.customerName},
 
@@ -320,9 +319,9 @@ Your booking has been confirmed! ✅
 • Please be ready at the pickup location on time
 
 📞 *24/7 Support:*
-• Phone: +91 7418332789
-• WhatsApp: +91 7418332789
-• Email: 1waytaxi.booking@gmail.com
+• Phone: +91 9087520500
+• WhatsApp: +91 9087520500
+• Email: happyridedroptaxi@gmail.com
 
 Thank you for choosing 1waytaxi! 🙏
 Safe travels!
@@ -333,9 +332,9 @@ Safe travels!
 };
 // Format booking confirmation for WhatsApp message
 export const formatWhatsAppConfirmationMessage = (booking: BookingEnquiry): string => {
-  const message = `🚖 *BOOKING CONFIRMATION - 1waytaxi*
+  const message = `🚖 *BOOKING CONFIRMATION - Happyridedroptaxi*
 
-Thanks for booking 1waytaxi! 🙏
+Thanks for booking Happyridedroptaxi! 🙏
 
 📋 *Trip Details:*
 • Booking ID: ${booking.bookingId}
@@ -353,8 +352,8 @@ Thanks for booking 1waytaxi! 🙏
 • Vehicle: ${booking.vehicleType}
 • For Customer Intimation:Toll Gate, Permit, and Hill Station charges extra.
 
-📞 *Contact:* +91 7418332789
-🌐 *Website:* www.1waytaxi.com
+📞 *Contact:* +91 9087520500
+🌐 *Website:* www.happyridedroptaxi.com
 ${booking.customerEmail ? `• Email: ${booking.customerEmail}` : ''}
 
 ⏰ *Confirmed Time:* ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`;
@@ -364,7 +363,7 @@ ${booking.customerEmail ? `• Email: ${booking.customerEmail}` : ''}
 
 // Format booking enquiry for Telegram
 export const formatTelegramEnquiryMessage = (booking: BookingEnquiry): string => {
-  return `🚖 *BOOKING ENQUIRY - 1waytaxi*
+  return `🚖 *BOOKING ENQUIRY - Happyridedroptaxi*
 
 📋 *Trip Details:*
 • Booking ID: \`${booking.bookingId}\`
@@ -385,12 +384,12 @@ ${booking.customerEmail ? `• Email: ${booking.customerEmail}` : ''}
 
 ⏰ *Enquiry Time:* ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
 
-📞 *Contact:* +91 7418332789`;
+📞 *Contact:* +91 9087520500`;
 };
 
 // Format booking confirmation for Telegram
 export const formatTelegramConfirmationMessage = (booking: BookingEnquiry): string => {
-  return `🚖 *BOOKING CONFIRMATION - 1waytaxi*
+  return `🚖 *BOOKING CONFIRMATION - Happyridedroptaxi*
 
 ✅ *CONFIRMED BOOKING*
 
@@ -413,22 +412,22 @@ ${booking.customerEmail ? `• Email: ${booking.customerEmail}` : ''}
 
 ⏰ *Confirmed Time:* ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
 
-📞 *Contact:* +91 7418332789`;
+📞 *Contact:* +91 9087520500`;
 };
 
 // Send WhatsApp enquiry notification
 export const sendWhatsAppEnquiryNotification = async (booking: BookingEnquiry): Promise<void> => {
   const message = formatWhatsAppEnquiryMessage(booking);
-  const whatsappUrl = `https://wa.me/917418332789?text=${message}`;
+  const whatsappUrl = `https://wa.me/919087520500?text=${message}`;
   
   console.log('📱 Sending WhatsApp enquiry notification...');
-  console.log('📱 WhatsApp URL prepared for 1waytaxi team');
+  console.log('📱 WhatsApp URL prepared for Happyridedroptaxi team');
   
   // Open WhatsApp to send enquiry notification to 1waytaxi team
   try {
     // Open WhatsApp in new tab to send enquiry to 1waytaxi team
     window.open(whatsappUrl, '_blank');
-    console.log('✅ WhatsApp enquiry notification opened for +91 7418332789');
+    console.log('✅ WhatsApp enquiry notification opened for +91 9087520500');
   } catch (error) {
     console.error('❌ Error sending WhatsApp enquiry notification:', error);
   }
@@ -460,10 +459,10 @@ export const sendCustomerWhatsAppEnquiryNotification = async (booking: BookingEn
 // Send WhatsApp confirmation notification
 export const sendWhatsAppConfirmationNotification = async (booking: BookingEnquiry): Promise<void> => {
   const message = formatWhatsAppConfirmationMessage(booking);
-  const whatsappUrl = `https://wa.me/917418332789?text=${message}`;
+  const whatsappUrl = `https://wa.me/919087520500?text=${message}`;
   
   console.log('📱 Sending WhatsApp confirmation notification...');
-  console.log('📱 WhatsApp URL prepared for 1waytaxi team');
+  console.log('📱 WhatsApp URL prepared for Happyridedroptaxi team');
   
   // Open WhatsApp to send confirmation notification to 1waytaxi team
   try {
@@ -473,7 +472,7 @@ export const sendWhatsAppConfirmationNotification = async (booking: BookingEnqui
       console.log('✅ Business WhatsApp tab opened successfully');
     }, 500);
     
-    console.log('✅ WhatsApp confirmation notification opened for +91 7418332789');
+    console.log('✅ WhatsApp confirmation notification opened for +91 9087520500');
   } catch (error) {
     console.error('❌ Error sending WhatsApp confirmation notification:', error);
   }
@@ -533,14 +532,14 @@ export const sendBookingEnquiryNotifications = async (booking: BookingEnquiry): 
     
     if (emailSent) {
       console.log('✅ Enquiry email sent successfully');
-     console.log('📧 1waytaxi team notified via email at: 1waytaxi.booking@gmail.com');
+     console.log('📧 Happyridedroptaxi team notified via email at: happyridedroptaxi@gmail.com');
     } else {
       console.log('⚠️ Enquiry email failed');
     }
     
     if (telegramSent) {
       console.log('✅ Telegram enquiry notification sent successfully');
-      console.log('📱 1waytaxi team notified via Telegram');
+      console.log('📱 Happyridedroptaxi team notified via Telegram');
     } else {
       console.log('⚠️ Telegram enquiry notification failed');
     }
@@ -552,7 +551,7 @@ export const sendBookingEnquiryNotifications = async (booking: BookingEnquiry): 
     // Show status to user
     if (emailSent || telegramSent) {
       console.log('✅ Enquiry notifications sent successfully');
-      console.log('📧📱 1waytaxi team has been notified via Email, WhatsApp, and Telegram');
+      console.log('📧📱 Happyridedroptaxi team has been notified via Email, WhatsApp, and Telegram');
     } else {
       console.log('⚠️ Some notifications failed, but WhatsApp notification sent');
     }
@@ -587,14 +586,14 @@ export const sendBookingConfirmationNotifications = async (booking: BookingEnqui
     
     if (emailSent) {
       console.log('✅ Confirmation email sent successfully');
-     console.log('📧 1waytaxi team notified via email at: 1waytaxi.booking@gmail.com');
+     console.log('📧 1waytaxi team notified via email at: happyridedroptaxi@gmail.com');
     } else {
       console.log('⚠️ Confirmation email failed');
     }
     
     if (telegramSent) {
       console.log('✅ Telegram confirmation notification sent successfully');
-      console.log('📱 1waytaxi team notified via Telegram');
+      console.log('📱 Happyridedroptaxi team notified via Telegram');
     } else {
       console.log('⚠️ Telegram confirmation notification failed');
     }
@@ -607,7 +606,7 @@ export const sendBookingConfirmationNotifications = async (booking: BookingEnqui
     // Show status to user
     if (emailSent || telegramSent) {
       console.log('✅ Confirmation notifications sent successfully');
-      console.log('📧📱 1waytaxi team notified via Email, WhatsApp, and Telegram');
+      console.log('📧📱 Happyridedroptaxi team notified via Email, WhatsApp, and Telegram');
     } else {
       console.log('⚠️ Some notifications failed, but WhatsApp notification sent');
     }
