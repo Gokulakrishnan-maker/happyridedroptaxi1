@@ -407,33 +407,28 @@ const Hero = () => {
         </script>
       </Helmet>
       
-      <section id="home" className="relative min-h-screen flex items-center overflow-hidden">
-      {/* Animated Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-500"></div>
-      <div className="absolute inset-0 bg-gradient-to-tr from-orange-400 via-pink-500 to-red-500 opacity-70"></div>
+      <section
+     id="home"
+     className="relative min-h-screen flex items-center overflow-hidden bg-cover bg-center"
+     style={{
+     backgroundImage: "url('/images/family-taxi-bg.jpg')", // <-- add your family background image here
+     }}
+    >
       
       {/* Animated Shapes */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-yellow-300/20 rounded-full blur-3xl animate-bounce"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-green-400/15 rounded-full blur-2xl animate-ping"></div>
-      </div>
+      <div className="absolute inset-0 bg-black/40">
+        
       
-      {/* Floating Elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-20 w-4 h-4 bg-white/30 rounded-full animate-float"></div>
-        <div className="absolute top-40 right-32 w-6 h-6 bg-yellow-300/40 rounded-full animate-float-delayed"></div>
-        <div className="absolute bottom-32 left-1/4 w-3 h-3 bg-pink-300/50 rounded-full animate-float"></div>
-        <div className="absolute bottom-20 right-20 w-5 h-5 bg-blue-300/40 rounded-full animate-float-delayed"></div>
-      </div>
-      
+     
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="text-white">
-            <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Book - Happyridedroptaxi Services in 
-              <span className="text-yellow-300 drop-shadow-lg">TamilNadu, Kerala & Karnataka </span>
-            </h1>
+      <div className="grid lg:grid-cols-2 gap-12 items-center">
+       <div className="text-white">
+        <h1 className="text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          Book - Happyridedroptaxi Services in
+          <span className="text-yellow-300 drop-shadow-lg">
+            TamilNadu, Kerala & Karnataka
+           </span>
+           </h1>
            <div className="flex flex-col sm:flex-row gap-6">
               <a href="https://wa.me/919087520500" className="bg-gradient-to-r from-green-500 to-green-600 text-white px-10 py-4 rounded-xl text-lg font-bold hover:from-green-600 hover:to-green-700 transition-all transform hover:scale-105 shadow-2xl text-center backdrop-blur-sm">
                 WhatsApp Us
