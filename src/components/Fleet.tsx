@@ -13,7 +13,7 @@ const Fleet = () => {
     },
     {
       name: 'ETIOS',
-      image: 'https://images.pexels.com/photos/170811/pexels-photo-170811.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://happyridedroptaxi.com/assets/etios.png',
       passengers: '1-4',
       luggage: '2 bags',
       features: ['Air Conditioning', 'GPS Tracking', 'Comfortable Seating'],
@@ -21,7 +21,7 @@ const Fleet = () => {
     },
     {
       name: 'SUV',
-      image: 'https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://happyridedroptaxi.com/assets/suv.png',
       passengers: '1-6',
       luggage: '4 bags',
       features: ['Luxury Interior', 'WiFi Available', 'Extra Space'],
@@ -29,7 +29,7 @@ const Fleet = () => {
     },
     {
       name: 'INNOVA',
-      image: 'https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://happyridedroptaxi.com/assets/innova.png',
       passengers: '1-8',
       luggage: '3 bags',
       features: ['Premium Comfort', 'Business Amenities', 'Professional Driver'],
