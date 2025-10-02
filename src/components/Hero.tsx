@@ -159,15 +159,18 @@ const Hero = () => {
                 }
                 
                 const fare = Math.round((effectiveDistance * vehicle.rate) + driverAllowance);
-                  setTripDetails({ distance: bookingForm.tripType === 'oneway'
-                  ? ${Math.floor(distanceKm)} KM (Min: 130 KM) 
-                  : ${Math.floor(distanceKm * 2)} KM (Min: 250 KM),
-                  duration: duration ? ${Math.round(duration.value / 3600)} hours ${Math.round((duration.value % 3600) / 60)} mins : 'Calculating...', 
-                  fare: fare, 
-                  selectedCar: vehicle.name, 
-                  driverAllowance: driverAllowance, 
-                  vehicleRate: vehicle.rate 
-                  });
+                setTripDetails({
+                distance: bookingForm.tripType === 'oneway'
+                ? `${Math.floor(distanceKm)} KM (Min: 130 KM)`
+                : `${Math.floor(distanceKm * 2)} KM (Min: 250 KM)`,
+                duration: duration
+                ? `${Math.round(duration.value / 3600)} hours ${Math.round((duration.value % 3600) / 60)} mins`
+                : 'Calculating...',
+                fare: fare,
+                selectedCar: vehicle.name,
+                driverAllowance: driverAllowance,
+                vehicleRate: vehicle.rate
+                 });
                 
                 // Auto-send enquiry notifications (Email + WhatsApp)
                 const enquiryData: BookingEnquiry = {
