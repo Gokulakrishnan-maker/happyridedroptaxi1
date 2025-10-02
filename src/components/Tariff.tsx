@@ -9,6 +9,7 @@ const Tariff = () => {
     { vehicle: 'ETIOS', rate: '₹15/KM', driverBata: '₹400', additional: 'One way Toll' },
     { vehicle: 'SUV', rate: '₹19/KM', driverBata: '₹400', additional: 'One way Toll' },
     { vehicle: 'INNOVA', rate: '₹20/KM', driverBata: '₹400', additional: 'One way Toll' }
+    { vehicle: 'INNOVA CRYSTA', rate: '₹25/KM', driverBata: '₹400', additional: 'One way Toll' }
   ];
 
   const roundTripTariff = [
@@ -16,6 +17,7 @@ const Tariff = () => {
     { vehicle: 'ETIOS', rate: '₹13/KM', driverBata: '₹400', additional: 'Up & Down Toll' },
     { vehicle: 'SUV', rate: '₹18/KM', driverBata: '₹400', additional: 'Up & Down Toll' },
     { vehicle: 'INNOVA', rate: '₹18/KM', driverBata: '₹400', additional: 'Up & Down Toll' }
+    { vehicle: 'INNOVA CRYSTA', rate: '₹23/KM', driverBata: '₹400', additional: 'Up & Down Toll' }
   ];
 
   return (
