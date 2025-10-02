@@ -29,7 +29,7 @@ const Header = () => {
             <Link to="/" className="flex items-center space-x-3">
               <span className="flex items-center">
               <img
-               src="/logo1.png"
+               src="/logo2.png"
                alt="HappyrideDropTaxi Logo"
                className="h-20 w-auto"
                />
