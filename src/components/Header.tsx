@@ -27,12 +27,13 @@ const Header = () => {
             transition={{ duration: 0.6 }}
           >
             <Link to="/" className="flex items-center space-x-3">
+              <div className="h-16 flex items-center overflow-visible">
               <img
                src="/logo.png"
                alt="HappyrideDropTaxi Logo"
                className="w-48 md:w-64 h-auto object-contain"
                />
-             
+              </div>
               <span className="text-2xl font-bold text-gray-900"></span>
             </Link>
             </motion.div>
