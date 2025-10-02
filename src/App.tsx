@@ -21,8 +21,8 @@ const HomePage = () => (
   <>
     <Hero />
     <Tariff />
-    <MostBookedRoutes />
     <Fleet />
+    <MostBookedRoutes />
     <OutstationDestinations />
     <Testimonials />
     <Contact />
