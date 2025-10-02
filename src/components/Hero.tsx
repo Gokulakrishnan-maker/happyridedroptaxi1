@@ -154,7 +154,7 @@ const Hero = () => {
                 } else {
                   // Round trip: minimum 250 KM (actual distance × 2)
                   const roundTripDistance = distanceKm * 2;
-                  effectiveDistance = Math.max(roundTripDistance, 250);
+                  effectiveDistance = Math.max(Math.floor(roundTripDistance), 250);
                   driverAllowance = 500;
                 }
                 
@@ -162,8 +162,8 @@ const Hero = () => {
                 
                 setTripDetails({
                   distance: bookingForm.tripType === 'oneway' 
-                    ? `${Math.round(distanceKm)} KM (Min: 130 KM)`
-                    : `${Math.round(distanceKm * 2)} KM (Min: 250 KM)`,
+                    ? `${Math.floor(distanceKm)} KM (Min: 130 KM)`
+                    : `${Math.floor(distanceKm * 2)} KM (Min: 250 KM)`,
                   duration: duration ? `${Math.round(duration.value / 3600)} hours ${Math.round((duration.value % 3600) / 60)} mins` : 'Calculating...',
                   fare: fare,
                   selectedCar: vehicle.name,
@@ -562,7 +562,7 @@ const Hero = () => {
                       >
                         <div className="text-white font-bold text-sm mb-1">Round Trip</div>
                         <div className="text-white/80 text-xs">Min: 250 KM</div>
-                        <div className="text-white/80 text-xs">Driver Bata: ₹500</div>
+                        <div className="text-white/80 text-xs">Driver Bata: ₹400</div>
                       </div>
                     </div>
                   </div>
