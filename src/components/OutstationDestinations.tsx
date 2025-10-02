@@ -130,6 +130,7 @@ const OutstationDestinations = () => {
     distance: '200 km',
     duration: '5-6 hours',
     description: 'Historic city with Rock Fort and bustling markets',
+    fare: '₹3,600',    
     icon: Building,
     highlights: ['Rock Fort', 'Market Streets', 'Temples', 'Cultural Sites']
    },
@@ -140,16 +141,18 @@ const OutstationDestinations = () => {
      distance: '350 km',
      duration: '6-7 hours',
      description: 'Historic city famous for the Brihadeeswarar Temple, Chola architecture, and rich cultural heritage',
+     fare: '₹4,500',  
      icon: Building,
      highlights: ['Brihadeeswarar Temple', 'Chola Architecture', 'Art & Culture', 'UNESCO Heritage']
     },
     {
     name: 'Tirupati',
-    image: '/assets/tirupati.png',
+    image: 'https://happyridedroptaxi.com/assets/tirupati.png',
     category: 'Temple',
     distance: '378 km',
     duration: '7 hours',
     description: 'Famous pilgrimage city with the world-renowned Venkateswara Temple',
+    fare: '₹7,400', 
     icon: Building,
     highlights: ['Tirupati Balaji Temple', 'Spiritual Experience', 'Pilgrimage', 'Cultural Sites']
     }
