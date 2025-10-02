@@ -31,7 +31,7 @@ const Header = () => {
               <img
                src="/logo.png"
                alt="HappyrideDropTaxi Logo"
-               className="h-29 md:h-30 w-auto object-contain"
+               className="h-29 md:h-24 w-auto object-contain"
                />
               </div>
               <span className="text-2xl font-bold text-gray-900"></span>
