@@ -30,9 +30,10 @@ const Header = () => {
               <img
                 src="/logo.png"
                 alt="HappyrideDropTaxi Logo"
-                className="h-20 w-auto md:h-24 lg:h-28"
+                className="h-14 w-auto md:h-20"
               />
-              <span className="text-3xl md:text-4xl font-extrabold text-yellow-500"></span>
+              <span className="text-3xl md:text-4xl font-extrabold text-yellow-500">Happyride<span className="text-black">DropTaxi</span>
+              </span>
             </Link>
           </motion.div>
 
