@@ -122,7 +122,17 @@ const OutstationDestinations = () => {
       fare: '₹3,550',
       icon: Waves,
       highlights: ['Chinese Fishing Nets', 'Fort Kochi', 'Backwaters', 'Spice Markets']
-    }
+    },
+      {
+    name: 'Trichy',
+    image: '/assets/Srirangam-Temple.png',
+    category: 'Temple',
+    distance: '200 km',
+    duration: '5-6 hours',
+    description: 'Historic city with Rock Fort and bustling markets',
+    icon: Building,
+    highlights: ['Rock Fort', 'Market Streets', 'Temples', 'Cultural Sites']
+   }
   ];
 
   return (
