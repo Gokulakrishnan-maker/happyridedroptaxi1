@@ -26,7 +26,7 @@ const Header = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <Link to="/" className="flex items-center space-x-2">
+            <Link to="/" className="flex items-center space-x-3">
               <img
                 src="/logo.png"
                 alt="HappyrideDropTaxi Logo"
