@@ -21,20 +21,19 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
-          <motion.div
+         <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-           <Link to="/" className="flex items-center space-x-3">
-           <span className="flex items-center">
-           
-          <span className="ml-2 text-3xl md:text-4xl font-extrabold">
-          <span className="text-yellow-500">Happyride</span>
-          <span className="text-black">DropTaxi</span>
-          </span>
-          </span>
-          </Link>
+            <Link to="/" className="flex items-center space-x-2">
+              <img
+                src="/logo.png"
+                alt="HappyrideDropTaxi Logo"
+                className="h-16 w-auto md:h-20"
+              />
+              <span className="text-2xl md:text-3xl font-extrabold text-yellow-500"></span>
+            </Link>
           </motion.div>
 
           {/* Desktop Menu */}
