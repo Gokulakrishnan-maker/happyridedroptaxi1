@@ -34,9 +34,10 @@ const Header = () => {
                className="h-20 w-auto"
                />
               </div>
-              <span className="text-2xl font-bold text-gray-900"></span>
+               <span className="text-3xl md:text-4xl lg:text-5xl font-extrabold">
               <span className="text-yellow-500">Happyride</span>
-              <span className="text-white ml-1">DropTaxi</span>
+             <span className="text-white ml-1">DropTaxi</span>
+             </span>
              </Link>
             </motion.div>
 
