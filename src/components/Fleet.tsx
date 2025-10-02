@@ -73,11 +73,13 @@ const Fleet = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {vehicles.map((vehicle, index) => (
             <div key={index} className="bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:border-blue-500 transition-all duration-300 group">
+              
+              {/* Car Image with Floating + Hover Zoom */}
               <div className="relative overflow-hidden">
                 <img 
                   src={vehicle.image} 
                   alt={`${vehicle.name} - Professional taxi service`}
-                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  className="w-full h-48 object-cover animate-float group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
                     console.error(`Failed to load image for ${vehicle.name}:`, vehicle.image);
                     e.target.style.display = 'none';
