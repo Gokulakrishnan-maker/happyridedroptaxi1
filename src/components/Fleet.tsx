@@ -34,7 +34,12 @@ const Fleet = () => {
       luggage: '3 bags',
       features: ['Premium Comfort', 'Business Amenities', 'Professional Driver'],
      
-    }
+    },
+      name: 'INNOVA CRYSTA',
+      image: 'https://happyridedroptaxi.com/assets/innova.png',
+      passengers: '1-8',
+      luggage: '3 bags',
+      features: ['Premium Comfort', 'Business Amenities', 'Professional Driver'],
   ];
 
   return (
