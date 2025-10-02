@@ -27,7 +27,7 @@ const Header = () => {
             transition={{ duration: 0.6 }}
           >
             <Link to="/" className="flex items-center space-x-3">
-              <div className="h-16 flex items-center overflow-visible">
+              <div className="h-14 flex items-center overflow-visible">
               <img
                src="/logo.png"
                alt="HappyrideDropTaxi Logo"
