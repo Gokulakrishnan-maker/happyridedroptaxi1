@@ -410,7 +410,7 @@ const Hero = () => {
       <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        className="absolute inset-0 bg-cover bg-center sm:bg-center bg-top bg-no-repeat"
         style={{
           backgroundImage: 'url("https://happyridedroptaxi.com/images/image.jpg")',
         }}
