@@ -9,7 +9,10 @@ const Fleet = () => {
       passengers: '1-4',
       luggage: '2 bags',
       features: ['Air Conditioning', 'GPS Tracking', 'Phone Charger'],
-      
+      tariff: {
+        oneWay: { ratePerKm: '₹14/KM', driverBata: '₹400', toll: 'One way Toll' },
+        roundTrip: { ratePerKm: '₹13/KM', driverBata: '₹400', toll: 'Up & Down Toll' }
+      }
     },
     {
       name: 'ETIOS',
@@ -17,7 +20,10 @@ const Fleet = () => {
       passengers: '1-4',
       luggage: '2 bags',
       features: ['Air Conditioning', 'GPS Tracking', 'Comfortable Seating'],
-     
+      tariff: {
+        oneWay: { ratePerKm: '₹15/KM', driverBata: '₹400', toll: 'One way Toll' },
+        roundTrip: { ratePerKm: '₹13/KM', driverBata: '₹400', toll: 'Up & Down Toll' }
+      }
     },
     {
       name: 'SUV',
@@ -25,7 +31,10 @@ const Fleet = () => {
       passengers: '1-6',
       luggage: '4 bags',
       features: ['Luxury Interior', 'WiFi Available', 'Extra Space'],
-      
+      tariff: {
+        oneWay: { ratePerKm: '₹19/KM', driverBata: '₹400', toll: 'One way Toll' },
+        roundTrip: { ratePerKm: '₹18/KM', driverBata: '₹400', toll: 'Up & Down Toll' }
+      }
     },
     {
       name: 'INNOVA',
@@ -33,7 +42,10 @@ const Fleet = () => {
       passengers: '1-8',
       luggage: '3 bags',
       features: ['Premium Comfort', 'Business Amenities', 'Professional Driver'],
-     
+      tariff: {
+        oneWay: { ratePerKm: '₹20/KM', driverBata: '₹400', toll: 'One way Toll' },
+        roundTrip: { ratePerKm: '₹18/KM', driverBata: '₹400', toll: 'Up & Down Toll' }
+      }
     },
     {
       name: 'INNOVA CRYSTA',
@@ -41,6 +53,10 @@ const Fleet = () => {
       passengers: '1-8',
       luggage: '3 bags',
       features: ['Premium Comfort', 'Business Amenities', 'Professional Driver'],
+      tariff: {
+        oneWay: { ratePerKm: '₹25/KM', driverBata: '₹400', toll: 'One way Toll' },
+        roundTrip: { ratePerKm: '₹23/KM', driverBata: '₹400', toll: 'Up & Down Toll' }
+      }
     }
   ];
 
@@ -67,7 +83,7 @@ const Fleet = () => {
                     e.target.style.display = 'none';
                   }}
                 />
-               </div>
+              </div>
               
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 mb-4">{vehicle.name}</h3>
@@ -83,13 +99,19 @@ const Fleet = () => {
                   </div>
                 </div>
 
-                <div className="space-y-2 mb-6">
+                <div className="space-y-2 mb-4">
                   {vehicle.features.map((feature, featureIndex) => (
                     <div key={featureIndex} className="flex items-center space-x-2">
                       <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                       <span className="text-sm text-gray-600">{feature}</span>
                     </div>
                   ))}
+                </div>
+
+                {/* Tariff Section */}
+                <div className="mb-6 p-4 bg-gray-50 rounded-lg border border-gray-200">
+                  <p className="text-sm text-gray-700"><strong>One Way:</strong> {vehicle.tariff.oneWay.ratePerKm}, {vehicle.tariff.oneWay.driverBata}, {vehicle.tariff.oneWay.toll}</p>
+                  <p className="text-sm text-gray-700"><strong>Round Trip:</strong> {vehicle.tariff.roundTrip.ratePerKm}, {vehicle.tariff.roundTrip.driverBata}, {vehicle.tariff.roundTrip.toll}</p>
                 </div>
 
                 <button className="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors">
