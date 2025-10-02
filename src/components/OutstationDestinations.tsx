@@ -125,14 +125,24 @@ const OutstationDestinations = () => {
     },
       {
     name: 'Trichy',
-    image: '/assets/Srirangam-Temple.png',
+    image: 'https://happyridedroptaxi.com/assets/Srirangam-Temple.png',
     category: 'Temple',
     distance: '200 km',
     duration: '5-6 hours',
     description: 'Historic city with Rock Fort and bustling markets',
     icon: Building,
     highlights: ['Rock Fort', 'Market Streets', 'Temples', 'Cultural Sites']
-   }
+   },
+     {
+      name: 'Thanjavur',
+     image: 'https://happyridedroptaxi.com/assets/BrihadisvaraTemple.png',
+     category: 'Temple',
+     distance: '350',
+     duration: '6-7 hours',
+     description: 'Historic city famous for the Brihadeeswarar Temple, Chola architecture, and rich cultural heritage',
+     icon: Building,
+     highlights: ['Brihadeeswarar Temple', 'Chola Architecture', 'Art & Culture', 'UNESCO Heritage']
+    }
   ];
 
   return (
