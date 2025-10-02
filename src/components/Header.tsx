@@ -29,10 +29,10 @@ const Header = () => {
             <Link to="/" className="flex items-center space-x-3">
               <div className="h-16 flex items-center overflow-visible">
               <img
-              src="/logo.png"
-              alt="HappyrideDropTaxi Logo"
-              className="h-full scale-200 md:scale-225 object-contain"
-              />
+               src="/logo.png"
+               alt="HappyrideDropTaxi Logo"
+               className="w-48 md:w-64 h-auto object-contain"
+               />
               </div>
               <span className="text-2xl font-bold text-gray-900"></span>
             </Link>
