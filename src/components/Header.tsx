@@ -26,12 +26,12 @@ const Header = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <Link to="/" className="flex items-center space-x-3 py-1 leading-none">
-              <div className="h-16 flex items-center overflow-visible">
+            <Link to="/" className="flex items-center space-x-3">
+              <div className="h-16 flex items-center overflow-none">
               <img
                src="/logo.png"
                alt="HappyrideDropTaxi Logo"
-               className="w-48 md:w-56 max-h-12 object-contain"
+               className="w-48 md:w-64 h-auto object-contain"
                />
               </div>
               <span className="text-2xl font-bold text-gray-900"></span>
