@@ -35,7 +35,9 @@ const Header = () => {
                />
               </div>
               <span className="text-2xl font-bold text-gray-900"></span>
-            </Link>
+              <span className="text-yellow-500">Happyride</span>
+              <span className="text-white ml-1">DropTaxi</span>
+             </Link>
             </motion.div>
 
           {/* Desktop Menu */}
