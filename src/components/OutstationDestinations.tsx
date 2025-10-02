@@ -45,7 +45,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Madurai',
-      image: 'https://images.pexels.com/photos/1007025/pexels-photo-1007025.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://happyridedroptaxi.com/assets/meenakshi-amman-temple.png',
       distance: '220 km',
       duration: '4-5 hours',
       description: 'Temple city with Meenakshi Amman Temple',
@@ -137,12 +137,23 @@ const OutstationDestinations = () => {
       name: 'Thanjavur',
      image: 'https://happyridedroptaxi.com/assets/BrihadisvaraTemple.png',
      category: 'Temple',
-     distance: '350',
+     distance: '350 km',
      duration: '6-7 hours',
      description: 'Historic city famous for the Brihadeeswarar Temple, Chola architecture, and rich cultural heritage',
      icon: Building,
      highlights: ['Brihadeeswarar Temple', 'Chola Architecture', 'Art & Culture', 'UNESCO Heritage']
+    },
+    {
+    name: 'Tirupati',
+    image: '/assets/tirupati.png',
+    category: 'Temple',
+    distance: '378 km',
+    duration: '7 hours',
+    description: 'Famous pilgrimage city with the world-renowned Venkateswara Temple',
+    icon: Building,
+    highlights: ['Tirupati Balaji Temple', 'Spiritual Experience', 'Pilgrimage', 'Cultural Sites']
     }
+    
   ];
 
   return (
