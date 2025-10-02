@@ -27,11 +27,11 @@ const Header = () => {
             transition={{ duration: 0.6 }}
           >
             <Link to="/" className="flex items-center space-x-3">
-              <div className="h-16 flex items-center overflow-visible">
+              <div className="flex items-center">
               <img
                src="/logo.png"
                alt="HappyrideDropTaxi Logo"
-               className="h-16 md:h-20 w-auto object-contain"
+               className="h-24 w-auto min-w-[220px] object-contain"
                />
               </div>
               <span className="text-2xl font-bold text-gray-900"></span>
