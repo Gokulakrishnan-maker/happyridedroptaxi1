@@ -27,14 +27,16 @@ const Header = () => {
             transition={{ duration: 0.6 }}
           >
             <Link to="/" className="flex items-center space-x-3">
+              <div className="h-16 flex items-center overflow-visible">
               <img
-                src="/logo.png"
-                alt="HappyrideDropTaxi Logo"
-                className="h-16 md:h-16 w-auto scale-175 md:scale-200 object-contain"
+              src="/logo.png"
+              alt="HappyrideDropTaxi Logo"
+              className="h-full scale-200 md:scale-225 object-contain"
               />
+              </div>
               <span className="text-2xl font-bold text-gray-900"></span>
             </Link>
-          </motion.div>
+            </motion.div>
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex space-x-8">
