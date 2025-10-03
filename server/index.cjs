@@ -174,9 +174,9 @@ app.get('/api/test-email', async (req, res) => {
     console.log('🧪 Testing email configuration...');
     
     const testMailOptions = {
-      from: `1waytaxi System <${process.env.EMAIL_USER}>`,
-      to: '1waytaxi.booking@gmail.com',
-      subject: 'Test Email - 1waytaxi System',
+      from: `Happyridedroptaxi System <${process.env.EMAIL_USER}>`,
+      to: 'happyridedroptaxi@gmail.com',
+      subject: 'Test Email - Happyridedroptaxi System',
       text: 'This is a test email to verify the email system is working correctly.',
       html: `
         <div style="font-family: Arial, sans-serif; padding: 20px;">
@@ -216,7 +216,7 @@ app.get('/api/test-email', async (req, res) => {
             <h3>📧 Email Details:</h3>
             <p><strong>From:</strong> ${process.env.EMAIL_USER}</p>
             <p><strong>To:</strong> happyridedroptaxi@gmail.com</p>
-            <p><strong>Subject:</strong> Test Email - 1waytaxi System</p>
+            <p><strong>Subject:</strong> Test Email - Happyridedroptaxi System</p>
           </div>
           <a href="/" class="back-btn">← Back to Website</a>
         </body>
