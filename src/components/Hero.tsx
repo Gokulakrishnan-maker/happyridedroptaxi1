@@ -44,12 +44,19 @@ const Hero = () => {
   const fromAutocompleteRef = useRef<google.maps.places.Autocomplete | null>(null);
   const toAutocompleteRef = useRef<google.maps.places.Autocomplete | null>(null);
 
-  const vehicles = [
-    { name: 'SEDAN', rate: 14, image: '🚗' },
-    { name: 'ETIOS', rate: 14, image: '🚗' },
-    { name: 'SUV', rate: 19, image: '🚙' },
-    { name: 'INNOVA', rate: 20, image: '🚐' }
-  ];
+  const vehicles = bookingForm.tripType === "roundtrip"
+  ? [
+      { name: "SEDAN", rate: 13, image: '🚗' },
+      { name: "ETIOS", rate: 14, image: '🚗' },
+      { name: "SUV", rate: 18, image: '🚙' },
+      { name: "INNOVA", rate: 19, image: '🚐' },
+    ]
+  : [
+      { name: "SEDAN", rate: 14, image: '🚗' },
+      { name: "ETIOS", rate: 14, image: '🚗' },
+      { name: "SUV", rate: 19, image: '🚙' },
+      { name: "INNOVA", rate: 20, image: '🚐' },
+    ];
 
   useEffect(() => {
     const initializeGoogleMaps = async () => {
