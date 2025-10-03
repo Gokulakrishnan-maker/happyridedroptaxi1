@@ -53,7 +53,7 @@ const Hero = () => {
     ]
   : [
       { name: "SEDAN", rate: 14, image: '🚗' },
-      { name: "ETIOS", rate: 14, image: '🚗' },
+      { name: "ETIOS", rate: 15, image: '🚗' },
       { name: "SUV", rate: 19, image: '🚙' },
       { name: "INNOVA", rate: 20, image: '🚐' },
     ];
