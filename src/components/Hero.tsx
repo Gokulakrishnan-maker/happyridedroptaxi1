@@ -161,29 +161,22 @@ const Hero = () => {
                 } else {
                   // Round trip: minimum 250 KM (actual distance × 2)
                   const roundTripDistance = distanceKm * 2;
-                  effectiveDistance = Math.max(Math.floor(roundTripDistance), 250);
+                  effectiveDistance = Math.max(roundTripDistance), 250);
                   driverAllowance = 400;
                 }
-                let perKmRate = vehicle.rate; // default one way rate
-
-               if (bookingForm.tripType === 'roundtrip') {
-               if (vehicle.name === 'SEDAN' || vehicle.name === 'ETIOS') perKmRate = 13;
-               if (vehicle.name === 'SUV') perKmRate = 18;
-               if (vehicle.name === 'INNOVA') perKmRate = 19;
-               }
                 
-                const fare = Math.round((effectiveDistance *  perKmRate) + driverAllowance);
+                const fare = Math.round((effectiveDistance *  vehicle.rate) + driverAllowance);
                 setTripDetails({
                 distance: bookingForm.tripType === 'oneway'
-                ? `${Math.floor(distanceKm)} KM (Min: 130 KM)`
-                : `${Math.floor(distanceKm * 2)} KM (Min: 250 KM)`,
+                ? `${Math.round(distanceKm)} KM (Min: 130 KM)`
+                : `${Math.round(distanceKm * 2)} KM (Min: 250 KM)`,
                 duration: duration
                 ? `${Math.round(duration.value / 3600)} hours ${Math.round((duration.value % 3600) / 60)} mins`
                 : 'Calculating...',
                 fare: fare,
                 selectedCar: vehicle.name,
                 driverAllowance: driverAllowance,
-                vehicleRate:  perKmRate
+                vehicleRate: vehicle.rate 
                  });
                 
                 // Auto-send enquiry notifications (Email + WhatsApp)
@@ -339,8 +332,8 @@ const Hero = () => {
     <>
       <Helmet>
         <title>Happyridedroptaxi - Book Taxi Services in Tamil Nadu, Kerala & Karnataka | 24/7 Reliable Cab Service</title>
-        <meta name="description" content="Book 1waytaxi for safe, reliable taxi service across Tamil Nadu. 24/7 availability, transparent pricing, professional drivers. Call +91 7810095200 for local & outstation trips." />
-        <meta name="keywords" content="1waytaxi, taxi booking Tamil Nadu, Coimbatore taxi, outstation taxi, local cab service, airport transfer, 24/7 taxi service, reliable taxi booking" />
+        <meta name="description" content="Book Happyridedroptaxi for safe, reliable taxi service across Tamil Nadu. 24/7 availability, transparent pricing, professional drivers. Call +91 7810095200 for local & outstation trips." />
+        <meta name="keywords" content="Happyridedroptaxi, taxi booking Tamil Nadu, Coimbatore taxi, outstation taxi, local cab service, airport transfer, 24/7 taxi service, reliable taxi booking" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://happyridedroptaxi.com/" />
         
