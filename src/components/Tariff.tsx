@@ -14,7 +14,7 @@ const Tariff = () => {
 
   const roundTripTariff = [
     { vehicle: 'SEDAN', rate: '₹13/KM', driverBata: '₹400', additional: 'Up & Down Toll' },
-    { vehicle: 'ETIOS', rate: '₹13/KM', driverBata: '₹400', additional: 'Up & Down Toll' },
+    { vehicle: 'ETIOS', rate: '₹14/KM', driverBata: '₹400', additional: 'Up & Down Toll' },
     { vehicle: 'SUV', rate: '₹18/KM', driverBata: '₹400', additional: 'Up & Down Toll' },
     { vehicle: 'INNOVA', rate: '₹18/KM', driverBata: '₹400', additional: 'Up & Down Toll' },
     { vehicle: 'INNOVA CRYSTA', rate: '₹23/KM', driverBata: '₹400', additional: 'Up & Down Toll' }
