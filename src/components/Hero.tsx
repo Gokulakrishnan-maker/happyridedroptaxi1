@@ -161,7 +161,7 @@ const Hero = () => {
                 } else {
                   // Round trip: minimum 250 KM (actual distance × 2)
                   const roundTripDistance = distanceKm * 2;
-                  effectiveDistance = Math.max(roundTripDistance), 250);
+                  effectiveDistance = Math.max(roundTripDistance, 250);
                   driverAllowance = 400;
                 }
                 
