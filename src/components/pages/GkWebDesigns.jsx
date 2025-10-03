@@ -11,12 +11,12 @@ const GkWebDesigns = () => {
         <meta name="description" content="Gk WebDesigns specializes in modern, user-friendly websites and applications. Expert web development, SEO optimization, and digital solutions for businesses." />
         <meta name="keywords" content="web design, web development, SEO, digital marketing, responsive design, custom websites, mobile apps" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://1waytaxi.com/gk-web-designs" />
+        <link rel="canonical" href="https://happyridedroptaxi.com/gk-web-designs" />
         
         <meta property="og:title" content="Gk WebDesigns - Professional Web Development Services" />
         <meta property="og:description" content="Expert web development, design, and digital solutions for modern businesses." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://1waytaxi.com/gk-web-designs" />
+        <meta property="og:url" content="https://happyridedroptaxi.com/gk-web-designs" />
       </Helmet>
       
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50">
@@ -25,7 +25,7 @@ const GkWebDesigns = () => {
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <Link to="/" className="inline-flex items-center text-white/80 hover:text-white mb-8 transition-colors">
               <ArrowLeft className="h-5 w-5 mr-2" />
-              Back to 1waytaxi
+              Back to Happyridedroptaxi
             </Link>
             
             <div className="text-center">
@@ -143,7 +143,7 @@ const GkWebDesigns = () => {
                 className="border-2 border-white text-white px-8 py-4 rounded-xl font-bold hover:bg-white hover:text-green-600 transition-all flex items-center justify-center space-x-2"
               >
                 <ArrowLeft className="h-5 w-5" />
-                <span>Back to 1waytaxi</span>
+                <span>Back to Happyridedroptaxi</span>
               </Link>
             </div>
           </div>
