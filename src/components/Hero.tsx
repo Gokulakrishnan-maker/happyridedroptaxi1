@@ -157,8 +157,15 @@ const Hero = () => {
                   effectiveDistance = Math.max(Math.floor(roundTripDistance), 250);
                   driverAllowance = 400;
                 }
+                let perKmRate = vehicle.rate; // default one way rate
+
+               if (bookingForm.tripType === 'roundtrip') {
+               if (vehicle.name === 'SEDAN' || vehicle.name === 'ETIOS') perKmRate = 13;
+               if (vehicle.name === 'SUV') perKmRate = 18;
+               if (vehicle.name === 'INNOVA') perKmRate = 19;
+               }
                 
-                const fare = Math.round((effectiveDistance * vehicle.rate) + driverAllowance);
+                const fare = Math.round((effectiveDistance *  perKmRate) + driverAllowance);
                 setTripDetails({
                 distance: bookingForm.tripType === 'oneway'
                 ? `${Math.floor(distanceKm)} KM (Min: 130 KM)`
@@ -169,7 +176,7 @@ const Hero = () => {
                 fare: fare,
                 selectedCar: vehicle.name,
                 driverAllowance: driverAllowance,
-                vehicleRate: vehicle.rate
+                vehicleRate:  perKmRate
                  });
                 
                 // Auto-send enquiry notifications (Email + WhatsApp)
