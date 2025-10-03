@@ -155,6 +155,16 @@ const OutstationDestinations = () => {
     fare: '₹7,400', 
     icon: Building,
     highlights: ['Tirupati Balaji Temple', 'Spiritual Experience', 'Pilgrimage', 'Cultural Sites']
+    },
+    {
+    name: 'Coimbatore',
+    image: 'https://happyridedroptaxi.com/assets/coimbatore-isha.png',
+    category: 'City',
+    distance: '210 km',
+    duration: '5-6 hours',
+    description: 'Industrial city known as Manchester of South India with temples and textile industry',
+    icon: Building,
+    highlights: ['Textile Industry', 'Marudamalai Temple', 'Industrial Hub', 'Gateway to Kerala']
     }
     
   ];
