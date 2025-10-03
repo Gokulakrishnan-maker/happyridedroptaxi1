@@ -163,6 +163,7 @@ const OutstationDestinations = () => {
     distance: '210 km',
     duration: '5-6 hours',
     description: 'Industrial city known as Manchester of South India with temples and textile industry',
+    fare: '₹3,400', 
     icon: Building,
     highlights: ['Textile Industry', 'Marudamalai Temple', 'Industrial Hub', 'Gateway to Kerala']
     }
