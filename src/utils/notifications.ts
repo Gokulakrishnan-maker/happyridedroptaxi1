@@ -309,7 +309,7 @@ Your booking has been confirmed! ✅
 • Time: ${booking.time}
 • Vehicle: ${booking.vehicleType}
 
-💰 *Total Fare: ₹${booking.fareEstimate}*
+💰*Total Fare: ₹${booking.fareEstimate}*
 • Distance: ${booking.tripDistance}
 • Duration: ${booking.tripDuration}
 
@@ -323,7 +323,7 @@ Your booking has been confirmed! ✅
 • WhatsApp: +91 9087520500
 • Email: happyridedroptaxi@gmail.com
 
-Thank you for choosing 1waytaxi! 🙏
+Thank you for choosing Happyridedroptaxi! 🙏
 Safe travels!
 
 ⏰ *Confirmed Time:* ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}`;
