@@ -228,7 +228,7 @@ app.get('/api/test-email', async (req, res) => {
     res.status(500).send(`
       <html>
         <head>
-          <title>1waytaxi Email Test - Error</title>
+          <title>Happyridedroptaxi Email Test - Error</title>
           <style>
             body { font-family: Arial, sans-serif; max-width: 600px; margin: 50px auto; padding: 20px; }
             .error { background: #fee2e2; border: 2px solid #ef4444; padding: 20px; border-radius: 10px; }
@@ -551,7 +551,7 @@ www.happyridedroptaxi.com`;
 app.get('/api/health', (req, res) => {
   res.status(200).json({
     success: true,
-    message: '1waytaxi Email Server is running',
+    message: 'Happyridedroptaxi Email Server is running',
     timestamp: new Date().toISOString(),
     emailConfigured: emailConfigured,
     emailUser: process.env.EMAIL_USER || 'NOT SET',
