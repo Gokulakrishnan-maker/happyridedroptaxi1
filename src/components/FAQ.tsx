@@ -73,19 +73,19 @@ const FAQ = () => {
         <meta name="description" content="Happyridedroptaxi FAQ - Get answers to common questions about taxi booking, pricing, service areas, cancellation policy, and outstation trips across Tamil Nadu." />
         <meta name="keywords" content="Happyridedroptaxi FAQ, taxi booking questions, Tamil Nadu taxi service, outstation taxi, local taxi, fare calculation, booking help" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://1waytaxi.com/faq" />
+        <link rel="canonical" href="https://Happyridedroptaxi.com/faq" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="FAQ -  Happyridedroptaxi | Taxi Service Questions & Answers" />
         <meta property="og:description" content="Get answers to common questions about  Happyridedroptaxi booking, pricing, service areas, and policies across Tamil Nadu." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https:// Happyridedroptaxi.com/faq" />
-        <meta property="og:site_name" content="1waytaxi" />
+        <meta property="og:site_name" content="Happyridedroptaxi" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="FAQ -  Happyridedroptaxi" />
-        <meta name="twitter:description" content="Get answers to common questions about 1waytaxi booking and service." />
+        <meta name="twitter:description" content="Get answers to common questions about Happyridedroptaxi booking and service." />
         
         {/* Structured Data for FAQ */}
         <script type="application/ld+json">
@@ -93,7 +93,7 @@ const FAQ = () => {
             "@context": "https://schema.org",
             "@type": "FAQPage",
             "name": " Happyridedroptaxi FAQ - Frequently Asked Questions",
-            "description": "Common questions and answers about 1waytaxi booking, pricing, and service",
+            "description": "Common questions and answers about Happyridedroptaxi booking, pricing, and service",
             "url": "https:// Happyridedroptaxi.com/faq",
             "mainEntity": [
               {
