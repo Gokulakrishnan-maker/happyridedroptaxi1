@@ -11,7 +11,7 @@ const FAQ = () => {
       icon: Phone,
       questions: [
         {
-          question: "How can I book a taxi with 1waytaxi?",
+          question: "How can I book a taxi with Happyridedroptaxi?",
           answer: "You can book through our website, call +91 9087520500, or use our mobile app. We accept advance bookings and immediate pickup requests based on availability."
         },
         {
@@ -70,8 +70,8 @@ const FAQ = () => {
     <>
       <Helmet>
         <title>FAQ - Happyridedroptaxi | Frequently Asked Questions about Taxi Service</title>
-        <meta name="description" content="1waytaxi FAQ - Get answers to common questions about taxi booking, pricing, service areas, cancellation policy, and outstation trips across Tamil Nadu." />
-        <meta name="keywords" content="1waytaxi FAQ, taxi booking questions, Tamil Nadu taxi service, outstation taxi, local taxi, fare calculation, booking help" />
+        <meta name="description" content="Happyridedroptaxi FAQ - Get answers to common questions about taxi booking, pricing, service areas, cancellation policy, and outstation trips across Tamil Nadu." />
+        <meta name="keywords" content="Happyridedroptaxi FAQ, taxi booking questions, Tamil Nadu taxi service, outstation taxi, local taxi, fare calculation, booking help" />
         <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://1waytaxi.com/faq" />
         
@@ -137,7 +137,7 @@ const FAQ = () => {
           <HelpCircle className="h-16 w-16 text-blue-600 mx-auto mb-4" />
           <h1 className="text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h1>
           <p className="text-xl text-gray-600">
-            Find answers to common questions about 1waytaxi services
+            Find answers to common questions about Happyridedroptaxi services
           </p>
         </div>
 
