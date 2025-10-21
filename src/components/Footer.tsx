@@ -12,8 +12,7 @@ const Footer = () => {
               <span className="text-2xl font-bold">Happyridedroptaxi</span>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed max-w-md">
-              Your trusted Happyridedroptaxi service providing safe, reliable, and comfortable transportation 
-              across all districts in Tamil Nadu. Available 24/7 for local and outstation trips.
+              Happyridedroptaxi offers 24/7 taxi services across Tamil Nadu with guaranteed safety, reliability, and comfort in outstation travel.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 p-3 rounded-full hover:bg-blue-600 transition-colors">
