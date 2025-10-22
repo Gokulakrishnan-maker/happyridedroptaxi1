@@ -95,7 +95,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Salem',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVPal-LjTPjgheGw6SAFyoGNxZE4t3bLUtmw&s',
+      image: 'https://happyridedroptaxi.com/assets/salem1.avif',
       distance: '165 km',
       duration: '3 hours',
       description: 'A vibrant city in Tamil Nadu, known for hills, steel, and mangoes.',
