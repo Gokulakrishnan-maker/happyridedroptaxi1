@@ -55,7 +55,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kanyakumari',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVYkyFjgbLCZ9CbI90sWef31in22ymqHp-KQ&s',
+      image: 'https://happyridedroptaxi.com/assets/kanyakumari1.avif',
       distance: '450 km',
       duration: '8-9 hours',
       description: 'Southernmost tip with Thiruvalluvar Statue',
@@ -105,7 +105,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Rameshwaram',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuAHXKMueQqj8hJT_9c-3wEIQkeKAwNM84Mg&s',
+      image: 'https://happyridedroptaxi.com/assets/Rameshwaram1.avif',
       distance: '380 km',
       duration: '6 hours',
       description: 'Holy island with Ramanathaswamy Temple',
@@ -115,7 +115,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Cochin (Kochi)',
-      image: 'https://images.pexels.com/photos/1450360/pexels-photo-1450360.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://happyridedroptaxi.com/assets/kochi.avif',
       distance: '165 km',
       duration: '4-5 hours',
       description: 'Queen of Arabian Sea with backwaters',
