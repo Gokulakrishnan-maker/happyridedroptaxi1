@@ -154,7 +154,7 @@ const MostBookedRoutes = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Most Booked Routes</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Choose from our most frequently booked taxi routes, trusted by families and professionals for safe and comfortable travel across Tamil Nadu. Every fare includes transparent pricing with no hidden charges.
+            Frequently chosen routes offering secure travel, clear pricing, and comfortable vehicles—ideal for family trips, business travel, and airport transfers.
          </p>
         </div>
 
@@ -309,10 +309,10 @@ const MostBookedRoutes = () => {
               <div className="bg-yellow-50 border-2 border-yellow-200 rounded-xl p-4 mb-6">
                 <h5 className="font-semibold text-yellow-800 mb-2">Important Notes:</h5>
                 <ul className="text-sm text-yellow-700 space-y-1">
-                  <li>• Toll charges are estimated and may vary</li>
-                  <li>• Fuel prices subject to market rates</li>
-                  <li>• Driver allowance includes food and accommodation</li>
-                  <li>• GST applicable as per government rates</li>
+                  <li>• Fares are calculated based on distance and real-time toll updates</li>
+                  <li>• Complimentary waiting time included for customer convenience</li>
+                  <li>• Dedicated support available during your journey</li>
+                  <li>• Government taxes applicable as per regulations</li>
                 </ul>
               </div>
 
