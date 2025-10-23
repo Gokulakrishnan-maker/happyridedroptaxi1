@@ -153,7 +153,7 @@ const TermsOfService = () => {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Liability & Insurance</h2>
               <div className="bg-yellow-50 p-6 rounded-lg">
                 <p className="text-gray-700 mb-4">
-                  Kovai Drop Taxi maintains comprehensive insurance coverage for all vehicles and operations:
+                  Happy Ride Drop Taxi maintains comprehensive insurance coverage for all vehicles and operations:
                 </p>
                 <ul className="list-disc list-inside text-gray-700 space-y-2">
                   <li>Third-party liability insurance as per Motor Vehicle Act</li>
