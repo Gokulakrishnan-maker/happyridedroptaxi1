@@ -154,8 +154,8 @@ const MostBookedRoutes = () => {
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Most Booked Routes</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Popular taxi routes across Tamil Nadu with transparent pricing and professional service.
-          </p>
+            Choose from our most frequently booked taxi routes, trusted by families and professionals for safe and comfortable travel across Tamil Nadu. Every fare includes transparent pricing with no hidden charges.
+         </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -200,7 +200,9 @@ const MostBookedRoutes = () => {
 
         <div className="mt-16 text-center">
           <div className="bg-gradient-to-r from-green-500 to-emerald-500 rounded-2xl shadow-xl p-10 text-white">
-            <h3 className="text-3xl font-bold mb-4">Book Your Route Today!</h3>
+            <h3 className="text-3xl font-bold mb-4">Start Your Safe & Comfortable Journey Today
+            Your travel comfort is our priority. Book a taxi with flexible payment options and dedicated support throughout your trip.</h3>
+
             <p className="text-xl mb-8 opacity-90">
               Professional drivers, comfortable vehicles, and transparent pricing for all routes across Tamil Nadu
             </p>
