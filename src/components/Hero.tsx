@@ -335,21 +335,21 @@ const Hero = () => {
         <meta name="description" content="Book Happyridedroptaxi for safe, reliable taxi service across Tamil Nadu. 24/7 availability, transparent pricing, professional drivers. Call +91 7810095200 for local & outstation trips." />
         <meta name="keywords" content="Happyridedroptaxi, taxi booking Tamil Nadu, Coimbatore taxi, outstation taxi, local cab service, airport transfer, 24/7 taxi service, reliable taxi booking" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://happyridedroptaxi.com/" />
+        <link rel="canonical" href="https://www.happyridedroptaxi.com/" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="Happyridedroptaxi - Book Taxi Services in Tamil Nadu, Kerala & Karnataka" />
         <meta property="og:description" content="Safe, reliable taxi service across Tamil Nadu. 24/7 availability, transparent pricing, professional drivers." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://happyridedroptaxi.com/" />
+        <meta property="og:url" content="https://www.happyridedroptaxi.com/" />
         <meta property="og:site_name" content="Happyridedroptaxi" />
-        <meta property="og:image" content="https://happyridedroptaxi.com/image.png" />
+        <meta property="og:image" content="https://www.happyridedroptaxi.com/image.png" />
         
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Happyridedroptaxi - Reliable Taxi Service Tamil Nadu" />
         <meta name="twitter:description" content="Book safe, reliable taxi service across Tamil Nadu. 24/7 availability with transparent pricing." />
-        <meta name="twitter:image" content="https://happyridedroptaxi.com/image.png" />
+        <meta name="twitter:image" content="https://www.happyridedroptaxi.com/image.png" />
         
         {/* Local Business Structured Data */}
         <script type="application/ld+json">
@@ -358,9 +358,9 @@ const Hero = () => {
             "@type": "LocalBusiness",
             "name": "Happyridedroptaxi",
             "description": "Professional taxi service across Tamil Nadu with 24/7 availability, transparent pricing, and reliable drivers",
-            "url": "https://happyridedroptaxi.com",
+            "url": "https://www.happyridedroptaxi.com/",
             "telephone": "+91-9087520500",
-            "email": "happyridedroptaxi@gmail.com",
+            "email": "happyridedroptaxi7@gmail.com",
             "address": {
               "@type": "PostalAddress",
               "addressLocality": "Coimbatore",
@@ -420,7 +420,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-contain sm:bg-cover bg-top bg-no-repeat"
         style={{
-          backgroundImage: 'url("https://happyridedroptaxi.com/images/image.jpg")',
+          backgroundImage: 'url("https://www.happyridedroptaxi.com/images/image.jpg")',
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/70 to-yellow-900/60"></div>
