@@ -12,7 +12,7 @@ const Contact = () => {
     {
       icon: AtSign,
       title: 'Email Us',
-      details: 'happyridedroptaxi@gmail.com',
+      details: 'happyridedroptaxi7@gmail.com',
       description: 'For general Enquiries'
     },
     {
