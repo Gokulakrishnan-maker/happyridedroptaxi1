@@ -10,13 +10,13 @@ const TermsOfService = () => {
         <meta name="description" content="Happyridedroptaxi Terms of Service - Booking terms, cancellation policy, payment terms, and service agreement for taxi booking across Tamil Nadu. Licensed taxi service." />
         <meta name="keywords" content="Happyridedroptaxi terms of service, taxi booking terms, cancellation policy, payment terms, Tamil Nadu taxi service, licensed taxi operator" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://happyridedroptaxi.com/terms-of-service" />
+        <link rel="canonical" href="https://www.happyridedroptaxi.com/terms-of-service" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="Terms of Service - Happyridedroptaxi | Taxi Service Terms" />
         <meta property="og:description" content="Happyridedroptaxi Terms of Service - Booking terms, cancellation policy, and service agreement for taxi booking across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://happyridedroptaxi.com/terms-of-service" />
+        <meta property="og:url" content="https://www.happyridedroptaxi.com/terms-of-service" />
         <meta property="og:site_name" content="Happyridedroptaxi" />
         
         {/* Twitter Card tags */}
@@ -31,18 +31,18 @@ const TermsOfService = () => {
             "@type": "WebPage",
             "name": "Terms of Service - Happyridedroptaxi",
             "description": "Happyridedroptaxi Terms of Service - Booking terms, cancellation policy, and service agreement for taxi booking across Tamil Nadu",
-            "url": "https://happyridedroptaxi.com/terms-of-service",
+            "url": "https://www.happyridedroptaxi.com/terms-of-service",
             "isPartOf": {
               "@type": "WebSite",
               "name": "Happyridedroptaxi",
-              "url": "https://happyridedroptaxi.com"
+              "url": "https://www.happyridedroptaxi.com/"
             },
             "about": {
               "@type": "Organization",
               "name": "Happyridedroptaxi",
               "description": "Licensed taxi service across Tamil Nadu with transparent pricing",
               "telephone": "+91-9087520500",
-              "email": "happyridedroptaxi@gmail.com",
+              "email": "happyridedroptaxi7@gmail.com",
               "areaServed": "Tamil Nadu, India"
             }
           })}
@@ -172,7 +172,7 @@ const TermsOfService = () => {
                 </p>
                 <div className="space-y-2 text-gray-700">
                   <p><strong>Phone:</strong> +91 9087520500</p>
-                  <p><strong>Email:</strong> happyridedroptaxi@gmail.com</p>
+                  <p><strong>Email:</strong> happyridedroptaxi7@gmail.com</p>
                   <p><strong>Address:</strong> Tiruchirappali, Tamil Nadu, India</p>
                 </div>
               </div>
