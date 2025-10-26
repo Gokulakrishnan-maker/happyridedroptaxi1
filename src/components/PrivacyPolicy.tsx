@@ -10,13 +10,13 @@ const PrivacyPolicy = () => {
         <meta name="description" content="Happyridedroptaxi Privacy Policy - Learn how we protect your personal information, location data, and ensure secure taxi booking across Tamil Nadu. GDPR & Indian data protection aligned." />
         <meta name="keywords" content="Happyridedroptaxi privacy policy, data protection, secure taxi booking, Tamil Nadu taxi privacy, GDPR compliance, personal information security" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://happyridedroptaxi.com/privacy-policy" />
+        <link rel="canonical" href="https://www.happyridedroptaxi.com/privacy-policy" />
 
         {/* Open Graph tags */}
         <meta property="og:title" content="Privacy Policy - Happyridedroptaxi | Secure Taxi Service" />
         <meta property="og:description" content="Learn how Happyridedroptaxi protects your personal information and ensures secure taxi booking across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://happyridedroptaxi.com/privacy-policy" />
+        <meta property="og:url" content="https://www.happyridedroptaxi.com/privacy-policy" />
         <meta property="og:site_name" content="Happyridedroptaxi" />
 
         {/* Twitter Card tags */}
@@ -31,18 +31,18 @@ const PrivacyPolicy = () => {
             "@type": "WebPage",
             "name": "Privacy Policy - Happyridedroptaxi",
             "description": "Happyridedroptaxi Privacy Policy - Data protection and security information for taxi booking service in Tamil Nadu",
-            "url": "https://happyridedroptaxi.com/privacy-policy",
+            "url": "https://www.happyridedroptaxi.com/privacy-policy",
             "isPartOf": {
               "@type": "WebSite",
               "name": "Happyridedroptaxi",
-              "url": "https://happyridedroptaxi.com"
+              "url": "https://www.happyridedroptaxi.com/"
             },
             "about": {
               "@type": "Organization",
               "name": "Happyridedroptaxi",
               "description": "Professional taxi service across Tamil Nadu",
               "telephone": "+91-9087520500",
-              "email": "happyridedroptaxi@gmail.com"
+              "email": "happyridedroptaxi7@gmail.com"
             }
           })}
         </script>
@@ -211,7 +211,7 @@ const PrivacyPolicy = () => {
                   </p>
                   <div className="space-y-2 text-gray-700">
                     <p><strong>Phone:</strong> +91 9087520500</p>
-                    <p><strong>Email:</strong> happyridedroptaxi@gmail.com</p>
+                    <p><strong>Email:</strong> happyridedroptaxi7@gmail.com</p>
                     <p><strong>Address:</strong> Tiruchirappali, Tamil Nadu, India</p>
                   </div>
                 </div>
