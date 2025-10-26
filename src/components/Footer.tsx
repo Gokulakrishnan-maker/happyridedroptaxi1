@@ -54,7 +54,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <AtSign className="h-4 w-4 text-orange-400" />
-                <span className="text-gray-300">happyridedroptaxi@gmail.com</span>
+                <span className="text-gray-300">happyridedroptaxi7@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-4 w-4 text-orange-400" />
