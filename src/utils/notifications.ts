@@ -118,7 +118,7 @@ export const sendBookingEnquiryEmail = async (booking: BookingEnquiry): Promise<
     
     if (result.success) {
       console.log('✅ Booking enquiry email sent successfully via backend');
-      console.log('📧 Email sent to: happyridedroptaxi@gmail.com');
+      console.log('📧 Email sent to: happyridedroptaxi7@gmail.com');
       console.log('📧 Message ID:', result.messageId);
       return true;
     } else {
@@ -282,7 +282,7 @@ Our team will contact you shortly to confirm your booking and provide driver det
 
 📞 *Contact Us:*
 • Phone: +91 9087520500
-• Email: happyridedroptaxi@gmail.com
+• Email: happyridedroptaxi7@gmail.com
 • Website: www.happyridedroptaxi.com
 
 Thank you for choosing Happyridedroptaxi! 🙏
@@ -321,7 +321,7 @@ Your booking has been confirmed! ✅
 📞 *24/7 Support:*
 • Phone: +91 9087520500
 • WhatsApp: +91 9087520500
-• Email: happyridedroptaxi@gmail.com
+• Email: happyridedroptaxi7@gmail.com
 
 Thank you for choosing Happyridedroptaxi! 🙏
 Safe travels!
@@ -532,7 +532,7 @@ export const sendBookingEnquiryNotifications = async (booking: BookingEnquiry): 
     
     if (emailSent) {
       console.log('✅ Enquiry email sent successfully');
-     console.log('📧 Happyridedroptaxi team notified via email at: happyridedroptaxi@gmail.com');
+     console.log('📧 Happyridedroptaxi team notified via email at: happyridedroptaxi7@gmail.com');
     } else {
       console.log('⚠️ Enquiry email failed');
     }
@@ -586,7 +586,7 @@ export const sendBookingConfirmationNotifications = async (booking: BookingEnqui
     
     if (emailSent) {
       console.log('✅ Confirmation email sent successfully');
-     console.log('📧 1waytaxi team notified via email at: happyridedroptaxi@gmail.com');
+     console.log('📧 Happyridedroptaxi team notified via email at: happyridedroptaxi7@gmail.com');
     } else {
       console.log('⚠️ Confirmation email failed');
     }
