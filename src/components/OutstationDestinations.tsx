@@ -5,7 +5,7 @@ const OutstationDestinations = () => {
   const destinations = [
     {
       name: 'Chennai',
-      image: 'https://happyridedroptaxi.com/assets/chennai.png',
+      image: 'https://www.happyridedroptaxi.com/assets/chennai.png',
       distance: '500 km',
       duration: '7-8 hours',
       description: 'Capital city with Marina Beach and IT corridor',
@@ -15,7 +15,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Bangalore',
-      image: 'https://happyridedroptaxi.com/assets/bangolore.png',
+      image: 'https://www.happyridedroptaxi.com/assets/bangolore.png',
       distance: '360 km',
       duration: '6-7 hours',
       description: 'Silicon Valley of India with gardens and tech hubs',
@@ -25,7 +25,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Ooty',
-      image: 'https://happyridedroptaxi.com/assets/ooty-hillstation.png',
+      image: 'https://www.happyridedroptaxi.com/assets/ooty-hillstation.png',
       distance: '85 km',
       duration: '2.5 hours',
       description: 'Queen of Hill Stations with tea gardens',
@@ -35,7 +35,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kodaikanal',
-      image: 'https://happyridedroptaxi.com/assets/kodaikanal-hillstation.png',
+      image: 'https://www.happyridedroptaxi.com/assets/kodaikanal-hillstation.png',
       distance: '180 km',
       duration: '4 hours',
       description: 'Princess of Hill Stations with pristine lakes',
@@ -45,7 +45,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Madurai',
-      image: 'https://happyridedroptaxi.com/assets/meenakshi-amman-temple.png',
+      image: 'https://www.happyridedroptaxi.com/assets/meenakshi-amman-temple.png',
       distance: '220 km',
       duration: '4-5 hours',
       description: 'Temple city with Meenakshi Amman Temple',
@@ -55,7 +55,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Kanyakumari',
-      image: 'https://happyridedroptaxi.com/assets/kanyakumari1.avif',
+      image: 'https://www.happyridedroptaxi.com/assets/kanyakumari1.avif',
       distance: '450 km',
       duration: '8-9 hours',
       description: 'Southernmost tip with Thiruvalluvar Statue',
@@ -65,7 +65,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Mysore',
-      image: 'https://happyridedroptaxi.com/assets/mysore-palace.png',
+      image: 'https://www.happyridedroptaxi.com/assets/mysore-palace.png',
       distance: '280 km',
       duration: '5-6 hours',
       description: 'City of Palaces with rich heritage',
@@ -75,7 +75,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Munnar',
-      image: 'https://happyridedroptaxi.com/assets/munnar1.avif',
+      image: 'https://www.happyridedroptaxi.com/assets/munnar1.avif',
       distance: '160 km',
       duration: '4 hours',
       description: 'Kerala hill station with spice plantations',
@@ -85,7 +85,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Pondicherry',
-      image: 'https://happyridedroptaxi.com/assets/pondicherry.png',
+      image: 'https://www.happyridedroptaxi.com/assets/pondicherry.png',
       distance: '380 km',
       duration: '6-7 hours',
       description: 'French colonial town with beaches',
@@ -95,7 +95,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Salem',
-      image: 'https://happyridedroptaxi.com/assets/salem1.avif',
+      image: 'https://www.happyridedroptaxi.com/assets/salem1.avif',
       distance: '165 km',
       duration: '3 hours',
       description: 'A vibrant city in Tamil Nadu, known for hills, steel, and mangoes.',
@@ -105,7 +105,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Rameshwaram',
-      image: 'https://happyridedroptaxi.com/assets/Rameshwaram1.avif',
+      image: 'https://www.happyridedroptaxi.com/assets/Rameshwaram1.avif',
       distance: '380 km',
       duration: '6 hours',
       description: 'Holy island with Ramanathaswamy Temple',
@@ -115,7 +115,7 @@ const OutstationDestinations = () => {
     },
     {
       name: 'Cochin (Kochi)',
-      image: 'https://happyridedroptaxi.com/assets/kochi.avif',
+      image: 'https://www.happyridedroptaxi.com/assets/kochi.avif',
       distance: '165 km',
       duration: '4-5 hours',
       description: 'Queen of Arabian Sea with backwaters',
@@ -125,7 +125,7 @@ const OutstationDestinations = () => {
     },
       {
     name: 'Trichy',
-    image: 'https://happyridedroptaxi.com/assets/Srirangam-Temple.png',
+    image: 'https://www.happyridedroptaxi.com/assets/Srirangam-Temple.png',
     category: 'Temple',
     distance: '200 km',
     duration: '5-6 hours',
@@ -136,7 +136,7 @@ const OutstationDestinations = () => {
    },
      {
       name: 'Thanjavur',
-     image: 'https://happyridedroptaxi.com/assets/BrihadisvaraTemple.png',
+     image: 'https://www.happyridedroptaxi.com/assets/BrihadisvaraTemple.png',
      category: 'Temple',
      distance: '350 km',
      duration: '6-7 hours',
@@ -147,7 +147,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Tirupati',
-    image: 'https://happyridedroptaxi.com/assets/tirupati.png',
+    image: 'https://www.happyridedroptaxi.com/assets/tirupati.png',
     category: 'Temple',
     distance: '378 km',
     duration: '7 hours',
@@ -158,7 +158,7 @@ const OutstationDestinations = () => {
     },
     {
     name: 'Coimbatore',
-    image: 'https://happyridedroptaxi.com/assets/coimbatore-isha.png',
+    image: 'https://www.happyridedroptaxi.com/assets/coimbatore-isha.png',
     category: 'City',
     distance: '210 km',
     duration: '5-6 hours',
