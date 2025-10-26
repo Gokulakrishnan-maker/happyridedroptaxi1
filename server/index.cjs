@@ -175,7 +175,7 @@ app.get('/api/test-email', async (req, res) => {
     
     const testMailOptions = {
       from: `Happyridedroptaxi System <${process.env.EMAIL_USER}>`,
-      to: 'happyridedroptaxi@gmail.com',
+      to: 'happyridedroptaxi7@gmail.com',
       subject: 'Test Email - Happyridedroptaxi System',
       text: 'This is a test email to verify the email system is working correctly.',
       html: `
@@ -215,7 +215,7 @@ app.get('/api/test-email', async (req, res) => {
           <div class="info">
             <h3>📧 Email Details:</h3>
             <p><strong>From:</strong> ${process.env.EMAIL_USER}</p>
-            <p><strong>To:</strong> happyridedroptaxi@gmail.com</p>
+            <p><strong>To:</strong> happyridedroptaxi7@gmail.com</p>
             <p><strong>Subject:</strong> Test Email - Happyridedroptaxi System</p>
           </div>
           <a href="/" class="back-btn">← Back to Website</a>
@@ -352,7 +352,7 @@ Contact: +91 74183 32789`;
 
     const mailOptions = {
       from: `Happyridedroptaxi Booking <${process.env.EMAIL_USER}>`,
-      to: 'happyridedroptaxi@gmail.com',
+      to: 'happyridedroptaxi7@gmail.com',
       subject: emailSubject,
       text: emailBody,
       html: `
@@ -488,7 +488,7 @@ www.happyridedroptaxi.com`;
 
     const mailOptions = {
       from: ` Contact Happyridedroptaxi <${process.env.EMAIL_USER}>`,
-      to: 'happyridedroptaxi@gmail.com',
+      to: 'happyridedroptaxi7@gmail.com',
       subject: emailSubject,
       text: emailBody,
       html: `
@@ -574,5 +574,5 @@ app.listen(PORT, () => {
   console.log(`🚀 Happyridedroptaxi Email Server running on port ${PORT}`);
   console.log(`🌐 Health check: http://localhost:${PORT}/api/health`);
   console.log(`🧪 Test email: http://localhost:${PORT}/api/test-email`);
-  console.log(`📧 Emails will be sent to: happyridedroptaxi@gmail.com`);
+  console.log(`📧 Emails will be sent to: happyridedroptaxi7@gmail.com`);
 });
