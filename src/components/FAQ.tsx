@@ -73,13 +73,13 @@ const FAQ = () => {
         <meta name="description" content="Happyridedroptaxi FAQ - Get answers to common questions about taxi booking, pricing, service areas, cancellation policy, and outstation trips across Tamil Nadu." />
         <meta name="keywords" content="Happyridedroptaxi FAQ, taxi booking questions, Tamil Nadu taxi service, outstation taxi, local taxi, fare calculation, booking help" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://Happyridedroptaxi.com/faq" />
+        <link rel="canonical" href="https://www.happyridedroptaxi.com/faq" />
         
         {/* Open Graph tags */}
         <meta property="og:title" content="FAQ -  Happyridedroptaxi | Taxi Service Questions & Answers" />
         <meta property="og:description" content="Get answers to common questions about  Happyridedroptaxi booking, pricing, service areas, and policies across Tamil Nadu." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https:// Happyridedroptaxi.com/faq" />
+        <meta property="og:url" content="https://www.happyridedroptaxi.com/faq" />
         <meta property="og:site_name" content="Happyridedroptaxi" />
         
         {/* Twitter Card tags */}
@@ -94,7 +94,7 @@ const FAQ = () => {
             "@type": "FAQPage",
             "name": " Happyridedroptaxi FAQ - Frequently Asked Questions",
             "description": "Common questions and answers about Happyridedroptaxi booking, pricing, and service",
-            "url": "https:// Happyridedroptaxi.com/faq",
+            "url": "https://www.happyridedroptaxi.com/faq",
             "mainEntity": [
               {
                 "@type": "Question",
@@ -125,7 +125,7 @@ const FAQ = () => {
               "@type": "Organization",
               "name": " Happyridedroptaxi",
               "telephone": "+91-9087520500",
-              "email": "happyridedroptaxi@gmail.com"
+              "email": "happyridedroptaxi7@gmail.com"
             }
           })}
         </script>
@@ -203,7 +203,7 @@ const FAQ = () => {
               <span>WhatsApp</span>
             </a>
             <a 
-              href="mailto:happyridedroptaxi@gmail.com" 
+              href="mailto:happyridedroptaxi7@gmail.com" 
               className="border-2 border-blue-600 text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 hover:text-white transition-colors flex items-center space-x-2"
             >
               <AtSign className="h-4 w-4" />
