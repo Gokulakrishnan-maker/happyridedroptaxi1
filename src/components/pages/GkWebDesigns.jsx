@@ -126,6 +126,10 @@ const GkWebDesigns = () => {
             <p className="text-xl text-green-100 mb-8">
               Let's discuss how we can help transform your digital presence
             </p>
+
+             <p className="text-lg text-green-100 mb-8">
+           📞 Call Us: <a href="tel:+916379456651" className="underline hover:text-white">+91 6379456651</a>
+            </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
